@@ -1,0 +1,15 @@
+<h1>Contact us</h1>
+<%= form_tag submit_path do %>
+<p>
+  Name:<br/>
+  <%= text_field_tag :name %>
+</p>
+<p>
+  Message:<br/>
+  <%= text_area_tag :message %>
+</p>
+<p>
+  <%= submit_tag "Submit" %>
+</p>
+
+<% end %>
